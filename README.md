@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+In a fully responsive website, the design elements generally stay the same, but the design adapts at certain breakpoints so that it can fit all the elements on a variety of different screen sizes.  As you adjust your window size, the site will automatically adjust when the window width hit those. breakpoints. Adaptive websites have several different designs, each one for a specific device.  The device your using chooses the design best suited for its screen size, but, once it's chosen, adjusting your window size will not affect the design.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+This means that the website is initially designed to fit a mobile device and then media queries are used to make the site responsive to devices with larger screens, such as tablets and desktops.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets the root font-size at 10px.  This is very useful when using rem because 10px is easy to work with when using rem.  Rem is a relative unit of measurement proportionate to the root font size.  If the font-size in html is set to 62.5% then 1rem = 10px, 1.2rem would equal 12px and so on.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows you to do everything you can do with CSS plus some additional things.  For example, you can create variables and mix-ins that can be used repeatedly in your styling.  You can also nest items which makes it easier to organize your code and show other developers exactly which elements your code applies to.  Finally, preprocessing is ideal for adhering to the Separation-of-Concern principles because preprocessors allow you to place different sections of code in separate files and then import all files to a main file, which can then be compiled into a CSS file.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like nesting because it allows you to format the code in a similar manner to your HTML.  Parametric Mixins give me a little trouble but not much.  I understand how they work, but I am still figuring out when the best times to use them are.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
