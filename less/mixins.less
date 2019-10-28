@@ -1,1 +1,22 @@
 // Mixins Here
+
+.btn-styling (@fs, @w) {
+    background-color: @ebony-clay;
+    color: white;
+    border-radius: 5px;
+    padding: .7rem 1rem;
+    text-align: center;
+    font-size: @fs;
+    width: @w;
+
+    &:hover {
+        background-color: white;
+        color: @ebony-clay;
+        border: 1px solid @ebony-clay;
+    }
+}
+
+.flex-styling {
+    display: flex;
+    justify-content: center;
+}

@@ -4,6 +4,11 @@
 
   .intro {
 
+    img {
+      width: 100%;
+      border-radius: 5px
+    }
+
     h2 {
       padding: 15px;
     }
@@ -43,8 +48,7 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .flex-styling();
 
     .walk-text {
       width: 50%;
@@ -58,7 +62,9 @@
       }
 
       .btn {
+        .btn-styling(1.8rem, 30%);
       }
+
     }
 
     .walk-img {
